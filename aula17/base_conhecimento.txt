@@ -4,7 +4,3 @@ Cliente: Eu gosto muito!
 Chatbot: Qual?
 Cliente: Gosto demais!
 Chatbot: Legal!
-Ola
-Chatbot: & C:/Python313/python.exe "c:/Users/actrl/OneDrive/Área de Trabalho/Claudio/aula17/DonaMaria.py"
-Olá
-Chatbot: Olá

@@ -1,7 +1,7 @@
 import random
 def saudacoes(nome):
     frases = [f'Bom dia! Meu nome é {nome}. Como vai você?','Olá!','Oi, tudo bem?']
-    print(random.choice(frases))  # mais simples que randint
+    print(random.choice(frases))
 def receberTexto():
     palavraProibida = ['Bocó', 'Andrew']
     while True: 
@@ -35,3 +35,8 @@ def exibeResposta(resposta, nome):
     else:
         print(resposta.replace('Chatbot', nome))
         return 'continua'
+def exibeResposta_GUI(texto, resposta, nome):
+    return resposta.replace("Chatbot",nome)
+def saudacao_GUI(nome):
+    frases = [f'Bom dia! Meu nome é {nome}. Como vai você?','Olá!','Oi, tudo bem?']
+    return random.choice(frases)
