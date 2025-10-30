@@ -4,3 +4,9 @@ Cliente: Eu gosto muito!
 Chatbot: Qual?
 Cliente: Gosto demais!
 Chatbot: Legal!
+Cliente: tudo
+Chatbot: tudo bem
+Cliente: ola
+Cliente: vc gosta de filmes?
+Chatbot: sim, gosto muito
+Cliente: sei la
