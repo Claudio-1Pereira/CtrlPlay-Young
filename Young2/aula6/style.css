@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f3f1f1;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+}
+#conteiner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+#apresentation{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#text-ap{
+    width: 70%;
+    font-size: 1.5rem;
+    margin-left: 150px;
+}
+
+#login-area{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#login_a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 60%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 0px solid #000000;
+    box-shadow: 0px 2px 4px black;
+}
+input{
+    width: 100%;
+    height: 30px;
+    margin: 5px;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #ffffff;
+    border-width: 1px;
+    border: 1px solid #8f9091;
+}
+#button1{
+    width: 104%;
+    height: 50px;
+    margin: 10px;
+    background-color:#0866ff;
+    border-radius: 5px;
+    border: #0866ff;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+#button2{
+    width: 50%;
+    height: 20%;
+    margin: 10px;
+    background-color:#36a420;
+    border-radius: 5px;
+    border: #36a420;
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+#criar-conta{
+    display: flex;
+    width: 65%;
+    height: 20%;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+#Img-ap{
+    width: 60%;
+}
+
+#span1{
+    color: #0866ff;
+    margin: 5px;
+    
+}
+hr{
+    width: 100%;
+    margin: 20px;
+    color: #8f90919a;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    max-width: 100vw;
+}
+ul{
+    list-style: none;
+    color: #8f9091;
+    font-size: 0.9rem;
+}
+li{
+    margin: 5px;
+}
+#list1{
+    display: flex;
+    flex-direction: row;
+    justify-items:left;
+    margin-right: 13%;
+}
+#hr1{
+    width: 70%;
+}
+#list2{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: left;
+    align-items: center;
+    max-width: 70%;
+
+}
+#spn-footer{
+    color: #8f9091;
+    display: flex;
+    justify-content: left;
+    margin-right: 62%;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}

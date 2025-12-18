@@ -1,0 +1,131 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f3f1f1;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    background-image: url(http://127.0.0.1:5500/aula8/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    height: 50px;
+    background-color: #abdc7a;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #96c468;
+}
+a{
+    margin-left: 15px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #353535;
+}
+#Sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+    justify-content: center;
+    border-radius: 15px;
+    max-width: 80%;
+    background-color: #c4c3c3ea;
+    font-size: 1.5rem;
+}
+#img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    margin-left: 40%;
+}
+#explicacao{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #c4c3c3ea;
+}
+#span2{
+    max-width: 100%;
+    margin-left: 2%;
+}
+#Projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-size: 2.5rem;
+    font-style: italic;
+    margin: 5px;
+}
+
+#list-projectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    max-width: 80%;
+    background-color: #c4c3c3ea;
+    border-radius: 15px;
+}
+li{
+    margin: 15px;
+    justify-items: left;
+    list-style: none;
+}
+strong{
+    font-size: 3rem;
+    margin: 10px;
+}
+#Como_melhorar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+
+}
+#list-como_melhora{
+    background-color: #c4c3c3ea;
+    border-radius: 15px;
+}   
+h4{
+    color: #3e621b;
+    margin: 5px;
+    font-size: 2rem;
+}
+h3{
+    color: #3e621b;
+    margin: 5px;
+    font-size: 2rem;
+}
+b{
+    color: #3e621b;
+    margin: 5px;
+    font-size: 1.5rem;
+}
+
