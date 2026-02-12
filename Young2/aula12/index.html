@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script lang="JavaScript">
+        let nome;
+        nome = prompt("Digite seu nome: ");
+        //let numero1 = prompt('Digite um número: ')
+        //let numero2 = prompt('Digite outro número: ')
+        let numero1 = parseInt(prompt('Digite um número: '))
+        let numero2 = parseInt(prompt('Digite outro número: '))
+
+        //let total = parseInt(numero1) + parseInt(numero2)
+        let total = numero1 + numero2
+
+        document.body.innerHTML = `Olá meu caro amigo ${nome}, você é demais!`;
+        document.body.innerHTML = `total = ${total}`
+        document.body.innerHTML = ""
+
+
+    </script>
+    <script src="script.js" defer></script>
+</body>
+</html>
