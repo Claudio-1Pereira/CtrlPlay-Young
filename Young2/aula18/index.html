@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="h-screen w-screen flex">
+    <div class="flex flex-col m-auto justify-center items-center">
+        <h1>Previsão do tempo</h1>
+        <h2>Digite uma cidade</h2>
+        <input class="input input-primary" id="inp1" type="text">
+        <button class="btn btn-primary my-2 w-50" onclick="ativa()">Verificar</button>
+        <p class="text-4xl font-bold" id="Mostra0"></p>
+        <p class="text-lg" id="Mostra"></p>
+        <p class="text-2xl" id="Mostra1"></p>
+
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
