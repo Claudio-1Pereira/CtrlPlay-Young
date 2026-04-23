@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+#aa{
+    min-height: 40%;
+    height: auto;
+    background-color: #6c49cb;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px;
+}
+
+button{
+    background-color: #5132ba;
+    padding: 10px;
+}
+
+#body{
+    background-color: #a176ee;
+}
