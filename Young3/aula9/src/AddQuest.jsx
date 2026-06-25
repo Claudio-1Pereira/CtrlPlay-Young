@@ -2,6 +2,12 @@ import { useState } from "react"
 
 export default function AddQuest(){
 
+    function AddEnter(event){
+        if(event.key == "Enter"){
+            add()
+        }
+    }
+
     const [quest, setQuest] = useState('')
     const [quests, setQuests] = useState([])
 
@@ -19,7 +25,7 @@ export default function AddQuest(){
     return(
         <>
             <div className="flex">
-                <input className="input input-primary focus:outline-none mr-2" value={quest} onChange={(e)=> setQuest(e.target.value)} type="text" placeholder="Add quest..." />
+                <input onKeyDown={(e)=>{AddEnter(e)}} className="input input-primary focus:outline-none mr-2" value={quest} onChange={(e)=> setQuest(e.target.value)} type="text" placeholder="Add quest..." />
                 <button className="btn btn-soft btn-primary" onClick={add}>Add</button>
             </div>
 
