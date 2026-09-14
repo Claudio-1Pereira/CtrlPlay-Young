@@ -24,7 +24,7 @@ export default function Produto({ name, preco }) {
 
   return (
     <Link to={`/produto/${name}`}>
-      <div className="flex w-48 h-60 flex-col rounded-2xl bg-mist-900 justify-center p-4 m-3 hover:scale-110">
+      <div className="flex w-48 h-68 flex-col rounded-2xl bg-[#2e2373] p-4 m-3 hover:scale-110">
 
         <img
           className="w-40 h-36 rounded-2xl"
@@ -32,9 +32,9 @@ export default function Produto({ name, preco }) {
           alt=""
         />
 
-        <span>{NomeDoPC[name].nome.replaceAll("_", " ")}</span>
+        <span className="text-3xl font-bold">{NomeDoPC[name].nome.replaceAll("_", " ")}</span>
 
-        <span>{preco}</span>
+        <span className="text-xl font-bold text-[#7ed784]">{preco}</span>
 
       </div>
     </Link>
