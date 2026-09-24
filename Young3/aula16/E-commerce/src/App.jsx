@@ -6,7 +6,7 @@ import Produto from './Produto'
 
 export default function App() {
   return (
-    <div className='max-w-screen max-h-screen'>
+    <div className='max-w-screen max-h-screen overflow-x-hidden'>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />

@@ -32,7 +32,7 @@ export default function Produto({ name, preco }) {
           alt=""
         />
 
-        <span className="text-3xl font-bold">{NomeDoPC[name].nome.replaceAll("_", " ")}</span>
+        <span className="text-3xl text-white font-bold">{NomeDoPC[name].nome.replaceAll("_", " ")}</span>
 
         <span className="text-xl font-bold text-[#7ed784]">{preco}</span>
 
